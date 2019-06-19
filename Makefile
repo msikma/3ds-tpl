@@ -218,7 +218,7 @@ ifneq ($(ROMFS),)
 endif
 
 .SUFFIXES:
-.PHONY: all clean test $(VFILE_C)
+.PHONY: all clean test
 .PRECIOUS: %.t3x
 
 default: all
