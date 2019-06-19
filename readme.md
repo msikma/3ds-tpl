@@ -52,7 +52,7 @@ The version file will contain functions that return a string, such as this:
 ```c
 /** Returns full program version with hash and date. */
 const char *get_version() {
-    return APP_VERSION;
+    return VERSION;
 }
 ```
 
