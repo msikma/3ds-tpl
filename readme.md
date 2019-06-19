@@ -50,9 +50,9 @@ To this end, the makefile will generate a **`version.c`** file (and its header) 
 The version file will contain functions that return a string, such as this:
 
 ```c
-/** Returns full program version with hash and date. */
-const char *get_version() {
-    return VERSION;
+/** Returns a formatted short version string. */
+const char *get_repo_version() {
+    return REPO_VERSION;
 }
 ```
 
