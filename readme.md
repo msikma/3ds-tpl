@@ -60,18 +60,18 @@ The following variables will be passed on to the file as defines:
 
 | Name | Example | Description |
 |:-----|:--------|:------------|
-| `HASH` | 7e54431 | Returns the build commit hash. |
-| `BRANCH` | master | Returns the build commit branch. |
-| `COUNT` | 123 | Returns the number of commits preceding this build commit. |
-| `DATE` | 2019-06-08 | Returns the build date. |
-| `DATETIME` | 2019-06-08 22:26:08 | Returns the build date and time. |
-| `BUILDTIME` | 2019-06-08T22:26:27+0200 | Returns an ISO 8601 timestamp with timezone of the build date. |
-| `UNIXTIME` | 1560025615 | Returns a Unix time number of the build date (as a string). |
-| `OSINFO` | Linux L1 4.4.0-24-generic … | Returns OS/kernel info string during build time. |
-| `VERSION`* | 1.0.0 | Returns the version number set in `project.cfg`. |
-| `REPO_VERSION` | 123-master | Returns a formatted short version string. |
-| `REPO_LONG_VERSION` | 123-master [7e54431; 2019-06-08] | Returns a formatted full version string. |
-| `CFLAGS`* | -march=armv6k -mtune=mpcore … | Returns the `CFLAGS` variables used to compile the code. |
+| `HASH` | 7e54431 | Build commit hash. |
+| `BRANCH` | master | Build commit branch. |
+| `COUNT` | 123 | Number of commits preceding this build commit. |
+| `DATE` | 2019-06-08 | Build date. |
+| `DATETIME` | 2019-06-08 22:26:08 | Build date and time. |
+| `BUILDTIME` | 2019-06-08T22:26:27+0200 | ISO 8601 timestamp with timezone of the build date. |
+| `UNIXTIME` | 1560025615 | Unix time number of the build date (as a string). |
+| `OSINFO` | Linux L1 4.4.0-24-generic … | OS/kernel info string during build time. |
+| `VERSION`* | 1.0.0 | Version number set in `project.cfg`. |
+| `REPO_VERSION` | 123-master | Formatted short version string. |
+| `REPO_LONG_VERSION` | 123-master [7e54431; 2019-06-08] | Formatted full version string. |
+| `CFLAGS`* | -march=armv6k -mtune=mpcore … | `CFLAGS` variables used to compile the code. |
 
 Most useful are the preformatted **`APP_REPO_VERSION`** and **`APP_REPO_LONG_VERSION`** variables. The `APP_VERSION` variable is the only one that's passed on from the `project.cfg` file rather than determined by the current commit; you may wish to use this for your own subjective version numbering in any format you like.
 
