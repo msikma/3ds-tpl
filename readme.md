@@ -8,7 +8,7 @@ This is a template for developing new 3DS games and applications in C. It's base
 * Builds `3dsx`, `elf`, `smdh` and `cia` files
 * Support for RomFS
 * Generates a C file with build-time information such as the Git repo state (for easy version indication)
-* Testing commands (for [Citra](https://citra-emu.org/) and real hardware)
+* Testing commands (for [Citra](https://citra-emu.org/) and for real hardware)
 
 ### Template structure
 
@@ -79,7 +79,7 @@ Since all information is passed on in the compile command and ends up only in th
 
 ### Lua development
 
-If you prefer, it's possible to develop 3DS applications using [Lua](https://en.wikipedia.org/wiki/Lua_(programming_language)) instead. 
+If you prefer, it's possible to develop 3DS applications using [Lua](https://en.wikipedia.org/wiki/Lua_(programming_language)) instead.
 
 Have a look at the **[3DS Lua development template]()** for more information.
 
